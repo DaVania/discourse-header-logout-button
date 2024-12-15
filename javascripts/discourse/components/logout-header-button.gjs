@@ -6,7 +6,7 @@ const LogoutHeaderButton = <template>
     <DButton
       @action={{routeAction "logout"}}
       class="btn-flat icon"
-      @icon="sign-out-alt"
+      @icon="right-from-bracket"
       @title="user.log_out"
       @label="user.log_out"
     />
